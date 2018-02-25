@@ -186,9 +186,9 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 #container section.cats .inner>div.int_img_slide ul li{float: left;width: 20%;height: 100%;color: #fff;background-color: #e95d6f;}
 
 #container section.cats .inner>div.int_img_slide ul li:nth-child(1){background: transparent url(../img/cats_slide_00_ver2.png) no-repeat;background-position: 60% 50%;background-size: cover;}/*menu*/
-#container section.cats .inner>div.int_img_slide ul li:nth-child(2){background: transparent url(../img/cats_slide_01-BATT.svg) no-repeat;background-position: 50% 50%;background-size: cover;}/*BATT*/
-#container section.cats .inner>div.int_img_slide ul li:nth-child(3){background: transparent url(../img/cats_slide_02-FAT.svg) no-repeat;background-position: 50% 50%;background-size: cover;}/*FAT*/
-#container section.cats .inner>div.int_img_slide ul li:nth-child(4){background: transparent url(../img/cats_slide_03-CAN.svg) no-repeat;background-position: 50% 50%;background-size: cover;}/*CAN*/
+#container section.cats .inner>div.int_img_slide ul li:nth-child(2){background: transparent url(../img/cats_slide_01-BATT.png) no-repeat;background-position: 50% 50%;background-size: cover;}/*BATT*/
+#container section.cats .inner>div.int_img_slide ul li:nth-child(3){background: transparent url(../img/cats_slide_02-FAT.png) no-repeat;background-position: 50% 50%;background-size: cover;}/*FAT*/
+#container section.cats .inner>div.int_img_slide ul li:nth-child(4){background: transparent url(../img/cats_slide_03-CAN.png) no-repeat;background-position: 50% 50%;background-size: cover;}/*CAN*/
 #container section.cats .inner>div.int_img_slide ul li:nth-child(5){background: transparent url(../img/cats_slide_04-SHOE.png) no-repeat;background-position: 50% 50%;background-size: cover;}/*SHOE*/
 
 /* :hover effects */
@@ -267,7 +267,7 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 /* SNS contact section */
 #container section.media{position: relative;color: #fffffb;background-color: #152030;}
 #container section.media .media_lighting{position: absolute;top: 0;width: 0%;height: 100%;background: transparent url(../img/media_light.svg) no-repeat;background-size: cover;animation: sec_media_light .7s ease-out normal forwards;animation-delay: 1s;}
-#container section.media .media_BATT{position: absolute;top: 0;left: 75%;width: 50%;height: 100%;background: transparent url(../img/media_BATT.svg) no-repeat;background-size: cover;opacity: 0;animation: sec_media_BATT .6s ease-out normal forwards;animation-delay: 1.55s;}
+#container section.media .media_BATT{position: absolute;top: 0;left: 75%;width: 50%;height: 100%;background: transparent url(../img/media_BATT.png) no-repeat;background-size: cover;opacity: 0;animation: sec_media_BATT .6s ease-out normal forwards;animation-delay: 1.55s;}
 #container section.media .media_txt{position: absolute;top: -25%;right: 55%;width: 30%;height: 50%;background: transparent url(../img/media_txt.svg) no-repeat;background-size: contain;transform: scale(0);opacity: 0;animation: sec_media_txt .5s ease-in-out normal forwards;animation-delay: 4.5s;}
 #container section.media .inner .sec_txtbx{position: absolute;bottom: 9%;font-size: 2rem;}
 #container section.media .inner .sec_txtbx .sec_mask{overflow: hidden;height: 2em;}
