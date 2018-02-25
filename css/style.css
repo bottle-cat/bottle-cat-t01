@@ -272,7 +272,7 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 #container section.media .inner .sec_txtbx{position: absolute;bottom: 9%;font-size: 2rem;}
 #container section.media .inner .sec_txtbx .sec_mask{overflow: hidden;height: 2em;}
 #container section.media .inner .sec_txtbx .sec_mask>*{font-family: 'Baloo', 'Rubik', 'Roboto', sans-serif;text-transform: capitalize;line-height: 1.25em;letter-spacing: .0415em;animation: txtslidein 1s ease-in-out .2s normal forwards;}
-#container section.media .inner .sec_txtbx .sec_mask h2{margin-top: 2em; text-shadow: .07rem .07rem #152030;}
+#container section.media .inner .sec_txtbx .sec_mask h2{margin-top: 2em; text-shadow: .09rem .09rem #152030;}
 #container section.media .inner .sec_txtbx .sec_mask:nth-child(1) h2{animation-delay: 2.25s;}
 #container section.media .inner .sec_txtbx .sec_mask:nth-child(2) h2{animation-delay: 2.4s;}
 #container section.media .inner .sec_txtbx .sec_mask:nth-child(3) h2{animation-delay: 2.55s;}
