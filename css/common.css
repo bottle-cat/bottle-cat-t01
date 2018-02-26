@@ -24,6 +24,23 @@ h1,h2{font-family: 'Baloo', 'Rubik', 'Roboto', sans-serif;}
 h3,h4{font-family: 'Rubik', 'Roboto', sans-serif;}
 p{font-family: 'Varela Round', 'Roboto', sans-serif;}
 
+/* width */
+::-webkit-scrollbar {
+    width: .45rem;
+}
+/* Track */
+::-webkit-scrollbar-track {
+	border-radius: .45rem;
+    background: transparent; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+	border-radius: .45rem;
+    background: rgba(0,0,0,.12);/*rgba(255,255,251,.4)*/
+}
+::-webkit-scrollbar-corner {
+	background-color: transparent;
+}
 /* Common */
 .inner {margin: auto; position: relative; height: 100%;}
 .inner:after {content: ""; display: block; clear: both;}
