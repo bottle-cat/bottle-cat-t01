@@ -152,13 +152,13 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 #container section.cats .inner>div.int_txt_slide{width: 35%;}
 /*#container section.cats .inner>div.int_txt_slide ul{width: 100%;height: 61.5%;margin: 9rem 0 4.5rem;}*/
 #container section.cats .inner>div.int_txt_slide ul{width: 100%;height: 74.5%;margin-top: 9rem;}
-#container section.cats .inner>div.int_txt_slide ul li{overflow: hidden;width: 100%;height: 100%; transition: all .7s ease-in-out;}
+#container section.cats .inner>div.int_txt_slide ul li{overflow: hidden;width: 100%;height: 100%; transition: height .7s ease-in-out;}
 #container section.cats .inner>div.int_txt_slide ul li label{float: left;clear: both;display: block;padding: .75rem 0 0 1.5rem;}
 #container section.cats .inner>div.int_txt_slide ul li label>*{color: #fffffb;}
-#container section.cats .inner>div.int_txt_slide ul li label em{display: block;padding-left: .3em;color: #c1c1c1;font-family: 'Rubik', 'Roboto', sans-serif;font-size: .9rem;transition: all .2s ease-in;}
+#container section.cats .inner>div.int_txt_slide ul li label em{display: block;padding-left: .3em;color: #c1c1c1;font-family: 'Rubik', 'Roboto', sans-serif;font-size: .9rem;transition: color .2s ease-in;}
 #container section.cats .inner>div.int_txt_slide ul li label h2{display: inline-block;font-size: 4rem;line-height: 3.5rem;transition: all .2s ease-in;}
 #container section.cats .inner>div.int_txt_slide ul li label i{overflow: hidden;display: inline-block;margin: 0 0 .3rem .5rem;width: 2.5rem;height: 2.5rem;}
-#container section.cats .inner>div.int_txt_slide ul li label i:before{content: "";display: block;margin-left: -110%;width: 100%;height: 100%;background-size: contain;opacity: 0;transition: all .3s ease-in-out;}
+#container section.cats .inner>div.int_txt_slide ul li label i:before{content: "";display: block;margin-left: -110%;width: 100%;height: 100%;background-size: contain;opacity: 0;transition: margin-left opacity .3s ease-in-out;}
 #container section.cats .inner>div.int_txt_slide ul li:nth-child(1) label i:before{background: transparent url(../img/icon_batt.svg) no-repeat;}
 #container section.cats .inner>div.int_txt_slide ul li:nth-child(2) label i:before{background: transparent url(../img/icon_fat.svg) no-repeat;}
 #container section.cats .inner>div.int_txt_slide ul li:nth-child(3) label i:before{background: transparent url(../img/icon_can.svg) no-repeat;}
@@ -438,13 +438,13 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 	#container section.cats .inner>div.int_txt_slide{width: 96%;top: 40%;}
 	/*#container section.cats .inner>div.int_txt_slide ul{width: 100%;height: 61.5%;margin: 9rem 0 4.5rem;}*/
 	#container section.cats .inner>div.int_txt_slide ul{width: 100%;height: 73.5%;margin-top: 0;}
-	#container section.cats .inner>div.int_txt_slide ul li{overflow: hidden;width: 100%;height: 100%; transition: all .7s ease-in-out;}
+	#container section.cats .inner>div.int_txt_slide ul li{overflow: hidden;width: 100%;height: 100%; transition: height .7s ease-in-out;}
 	#container section.cats .inner>div.int_txt_slide ul li label{float: left;clear: both;display: block;padding: .75rem 0 0 1.5rem;}
 	#container section.cats .inner>div.int_txt_slide ul li label>*{color: #fffffb;}
-	#container section.cats .inner>div.int_txt_slide ul li label em{display: block;padding-left: .3em;color: #c1c1c1;font-family: 'Rubik', 'Roboto', sans-serif;font-size: .9rem;transition: all .2s ease-in;}
+	#container section.cats .inner>div.int_txt_slide ul li label em{display: block;padding-left: .3em;color: #c1c1c1;font-family: 'Rubik', 'Roboto', sans-serif;font-size: .9rem;transition: color .2s ease-in;}
 	#container section.cats .inner>div.int_txt_slide ul li label h2{display: inline-block;font-size: 4rem;line-height: 3.5rem;transition: all .2s ease-in;}
 	#container section.cats .inner>div.int_txt_slide ul li label i{overflow: hidden;display: inline-block;margin: 0 0 .3rem .5rem;width: 2.5rem;height: 2.5rem;}
-	#container section.cats .inner>div.int_txt_slide ul li label i:before{content: "";display: block;margin-left: -110%;width: 100%;height: 100%;background-size: contain;opacity: 0;transition: all .3s ease-in-out;}
+	#container section.cats .inner>div.int_txt_slide ul li label i:before{content: "";display: block;margin-left: -110%;width: 100%;height: 100%;background-size: contain;opacity: 0;transition: margin-left opacity .3s ease-in-out;}
 	#container section.cats .inner>div.int_txt_slide ul li:nth-child(1) label i:before{background: transparent url(../img/icon_batt.svg) no-repeat;}
 	#container section.cats .inner>div.int_txt_slide ul li:nth-child(2) label i:before{background: transparent url(../img/icon_fat.svg) no-repeat;}
 	#container section.cats .inner>div.int_txt_slide ul li:nth-child(3) label i:before{background: transparent url(../img/icon_can.svg) no-repeat;}
