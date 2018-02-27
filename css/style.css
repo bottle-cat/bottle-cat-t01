@@ -330,6 +330,29 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 /* Media Query */
 @media screen and (max-width: 480px){
 
+
+	/* Global */
+	input[type=radio],input[type=checkbox]{display: none;}
+	html{background-color: #2a2a2b;}
+	#wrap{margin: 0 auto;background-color: #2a2a2b;}
+	.inner{max-width: 480px;}
+
+	.menu_icon{background: transparent url(../img/cats_menu_icon.svg) no-repeat;}
+	.batt_icon{background: transparent url(../img/icon_batt.svg) no-repeat;}
+	.fat_icon{background: transparent url(../img/icon_fat.svg) no-repeat;}
+	.can_icon{background: transparent url(../img/icon_can.svg) no-repeat;}
+	.shoe_icon{background: transparent url(../img/icon_shoe.svg) no-repeat;}
+
+	.s_ml_icon{background: transparent url(../img/icon_male.svg) no-repeat;}
+	.s_fml_icon{background: transparent url(../img/icon_female.svg) no-repeat;}
+	.s_Qmark_icon{background: transparent url(../img/icon_Qmark.svg) no-repeat;}
+	.b_month_icon{background: transparent url(../img/icon_calender.svg) no-repeat;}
+	.l_home_icon{background: transparent url(../img/icon_home.svg) no-repeat;}
+
+
+	/* LayOut */
+
+
 	/* Header */
 	header{width: 100%;}
 	header .gnb{overflow: hidden;position: fixed;width: 100%;height: 0;z-index: 10;animation: m_gnbheight 1s ease-out .4s normal forwards;background-color: rgba(0,0,0,.12);}
