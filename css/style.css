@@ -132,6 +132,7 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 
 /* characters intoduce section */
 #container section.cats{overflow: hidden;padding-bottom: 7.5rem;background-color: #0c5953;}
+#container section.cats .inner{height: 100%;}
 #container section.cats .inner>div{overflow: hidden;float: left;height: 100%;}
 #container section.cats .inner>div>ul{overflow: hidden;height: 100%;}
 #container section.cats .inner>div>ul li{background-color: transparent;}
@@ -269,7 +270,7 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 #container section.media .media_lighting{position: absolute;top: 0;width: 0%;height: 100%;background: transparent url(../img/media_light.svg) no-repeat;background-size: cover;animation: sec_media_light .7s ease-out normal forwards;animation-delay: 1s;}
 #container section.media .media_BATT{position: absolute;top: 0;left: 75%;width: 50%;height: 100%;background: transparent url(../img/media_BATT.png) no-repeat;background-size: cover;opacity: 0;animation: sec_media_BATT .6s ease-out normal forwards;animation-delay: 1.55s;}
 #container section.media .media_txt{position: absolute;top: -25%;right: 55%;width: 30%;height: 50%;background: transparent url(../img/media_txt.svg) no-repeat;background-size: contain;transform: scale(0);opacity: 0;animation: sec_media_txt .5s ease-in-out normal forwards;animation-delay: 4.5s;}
-#container section.media .inner .sec_txtbx{position: absolute;bottom: 9%;font-size: 2rem;}
+#container section.media .inner .sec_txtbx{position: absolute;top: 23rem;font-size: 2rem;}
 #container section.media .inner .sec_txtbx .sec_mask{overflow: hidden;height: 2em;}
 #container section.media .inner .sec_txtbx .sec_mask>*{font-family: 'Baloo', 'Rubik', 'Roboto', sans-serif;text-transform: capitalize;line-height: 1.25em;letter-spacing: .0415em;animation: txtslidein 1s ease-in-out .2s normal forwards;}
 #container section.media .inner .sec_txtbx .sec_mask h2{margin-top: 2em;text-shadow: .09rem .09rem rgba(0,0,0,.12);}
@@ -414,7 +415,7 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 
 	/* Container */
 	#container{}
-	#container section{padding-top: 2.5rem;height: 50rem;}
+	#container section{padding-top: 2rem;height: 50rem;}
 	#container section.about{height: 28rem;font-size: .75rem;background-color: #dd7a22;}
 	#container section.about .inner div>h3,i,em{color: #343435;font-family: 'Rubik', 'Roboto', sans-serif;font-size: 1em;}
 	#container section.about .inner div{text-align: center;padding: 0 4rem;}
@@ -441,6 +442,7 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 
 	/* characters intoduce section */
 	#container section.cats{overflow: hidden;padding-bottom: 5rem;height: 45rem;background-color: #0c5953;}
+		#container section.cats .inner{height: 100%;}
 	#container section.cats .inner>div{overflow: hidden;position: absolute;height: 100%;}
 	#container section.cats .inner>div>ul{overflow: hidden;height: 100%;}
 	#container section.cats .inner>div>ul li{background-color: transparent;}
@@ -486,7 +488,7 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 	#container section.cats .inner>div.int_txt_slide ul li .chr_info>.loc{padding-top: .125rem;padding-bottom: 1.5rem}
 	#container section.cats .inner>div.int_txt_slide ul li .chr_info>.loc span{}
 
-	#container section.cats .inner>div.int_txt_slide ul li .chr_info>.ints{overflow: scroll;height: 67%;}
+	#container section.cats .inner>div.int_txt_slide ul li .chr_info>.ints{overflow: scroll;height: 64%;}
 	#container section.cats .inner>div.int_txt_slide ul li .chr_info>.ints p{color: #c1c1c1;font-family: 'Roboto', sans-serif;font-size: 1rem;font-weight: 200;line-height: 1.25rem;}
 
 	/* characters intro img slide */
@@ -574,11 +576,12 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 
 
 	/* SNS contact section */
-	#container section.media{position: relative;height: 25rem;color: #fffffb;background-color: #152030;}
-	#container section.media .media_lighting{position: absolute;top: 0;width: 0%;height: 100%;background: transparent url(../img/media_light.svg) no-repeat;background-size: auto 65%;animation: m_sec_media_light .7s ease-out normal forwards;animation-delay: 1s;}
-	#container section.media .media_BATT{position: absolute;top: 0;left: 75%;width: 50%;height: 100%;background: transparent url(../img/media_BATT.png) no-repeat;background-size: auto 65%;opacity: 0;animation: m_sec_media_BATT .6s ease-out normal forwards;animation-delay: 1.55s;}
-	#container section.media .media_txt{position: absolute;top: -25%;right: 55%;width: 50%;height: 50%;background: transparent url(../img/media_txt.svg) no-repeat;background-size: contain;transform: scale(0);opacity: 0;animation: m_sec_media_txt .5s ease-in-out normal forwards;animation-delay: 4.5s;}
-	#container section.media .inner .sec_txtbx{position: absolute;bottom: 3%;width: 100%;font-size: .85rem;text-align: center;}
+	#container section.media{position: relative;padding-top: 1.5rem;height: 25rem;color: #fffffb;background-color: #152030;}
+	#container section.media .media_bg_wrap{position: relative;width: 100%;height: 60%;}
+	#container section.media .media_lighting{position: absolute;top: 0;width: 0%;height: 100%;background: transparent url(../img/media_light.svg) no-repeat;background-size: cover;animation: m_sec_media_light .7s ease-out normal forwards;animation-delay: 1s;}
+	#container section.media .media_BATT{position: absolute;top: 0;left: 75%;width: 50%;height: 100%;background: transparent url(../img/media_BATT.png) no-repeat;background-size: cover;opacity: 0;animation: m_sec_media_BATT .6s ease-out normal forwards;animation-delay: 1.55s;}
+	#container section.media .media_txt{position: absolute;top: -25%;right: 55%;width: 50%;height: 100%;background: transparent url(../img/media_txt.svg) no-repeat;background-size: contain;transform: scale(0);opacity: 0;animation: m_sec_media_txt .5s ease-in-out normal forwards;animation-delay: 4.5s;}
+	#container section.media .inner .sec_txtbx{position: absolute;top: 1.25rem;width: 100%;font-size: .85rem;text-align: center;}
 	#container section.media .inner .sec_txtbx .sec_mask{overflow: hidden;height: 2em;}
 	#container section.media .inner .sec_txtbx .sec_mask>*{font-family: 'Baloo', 'Rubik', 'Roboto', sans-serif;text-transform: capitalize;line-height: 1.25em;letter-spacing: .0415em;animation: m_txtslidein 1s ease-in-out .2s normal forwards;}
 	#container section.media .inner .sec_txtbx .sec_mask h2{margin-top: 2em;text-shadow: .09rem .09rem rgba(0,0,0,.12);}

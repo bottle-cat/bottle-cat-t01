@@ -42,7 +42,7 @@ p{font-family: 'Varela Round', 'Roboto', sans-serif;}
 	background-color: transparent;
 }
 /* Common */
-.inner {margin: auto; position: relative; height: 100%;}
+.inner {margin: auto; position: relative;}
 .inner:after {content: ""; display: block; clear: both;}
 .clearfix:after {content: ""; display: block; clear: both;}
 .ellipsis {overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
