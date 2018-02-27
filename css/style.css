@@ -572,15 +572,15 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 	}
 
 	@keyframes m_logo_slide{
-		0%{background-position: 9.15% 0;}
-		20%{background-position: 9.15% 0;}
-		25%{background-position: 36.5% 0;}
-		45%{background-position: 36.5% 0;}
+		0%{background-position: 7.7% 0;}
+		20%{background-position: 7.7% 0;}
+		25%{background-position: 36.2% 0;}
+		45%{background-position: 36.2% 0;}
 		50%{background-position: 63.8% 0;}
 		70%{background-position: 63.8% 0;}
-		75%{background-position: 91% 0;}
-		95%{background-position: 91% 0;}
-		100%{background-position: 9.15% 0;}
+		75%{background-position: 92.5% 0;}
+		95%{background-position: 92.5% 0;}
+		100%{background-position: 7.7% 0;}
 	}
 
 	@keyframes m_txtslidein{
@@ -600,5 +600,5 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 		80%{top: 9%;right: 47.5%;opacity: 1;transform: scale(1.05);}/*left: 10%;*/
 		90%{top: 9%;right: 47.5%;opacity: 1;transform: scale(.95);}/*left: 10%;*/
 		100%{top: 9%;right: 47.5%;opacity: 1;transform: scale(1);}/*left: 10%;*/
-}
+	}
 }
