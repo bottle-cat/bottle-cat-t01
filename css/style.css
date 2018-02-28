@@ -103,7 +103,7 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 
 
 /* Container */
-#container{}
+#container{width: 100%;}
 #container section{padding-top: 7.5rem;height: 50rem;}
 #container section.about{height: 37.5rem;font-size: 1rem;background-color: #dd7a22;}
 #container section.about .inner div>h3,i,em{color: #343435;font-family: 'Rubik', 'Roboto', sans-serif;font-size: 1em;}
@@ -422,7 +422,7 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 
 
 	/* Container */
-	#container{}
+	#container{width: 100%;}
 	#container section{padding-top: 2rem;height: 50rem;}
 	#container section.about{height: 28rem;font-size: .75rem;background-color: #dd7a22;}
 	#container section.about .inner div>h3,i,em{color: #343435;font-family: 'Rubik', 'Roboto', sans-serif;font-size: 1em;}
