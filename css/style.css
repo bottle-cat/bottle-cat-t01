@@ -69,7 +69,7 @@ header section.present .present_msg .hd_mask a{display: inline-block;margin-top:
 header section.present .present_msg .hd_mask:last-child a{color: #e95d6f;}
 header section.present .present_msg .hd_mask span{display: inline-block;}
 header section.present .present_msg .hd_mask:nth-child(5) a{;transition: color .7s ease;}
-header section.present .present_msg .hd_mask:nth-child(5) a:hover{color: #46a0f8;}
+header section.present .present_msg .hd_mask:nth-child(5) a:hover{color: #ffff00;}
 
 header section.present .present_msg .hd_mask:nth-child(2){animation: colorchng 2.5s ease 0s infinite alternate backwards;}
 
@@ -315,7 +315,7 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 }
 
 @keyframes colorchng{
-	0%{color: #397bbe;}
+	0%{color: #ffff00;}
 	50%{color: #fffffb;}
 	100%{color: #e95d6f;}
 }
@@ -631,7 +631,7 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 	}
 
 	@keyframes m_colorchng{
-		0%{color: #397bbe;}
+		0%{color: #ffff00;}
 		50%{color: #fffffb;}
 		100%{color: #e95d6f;}
 	}
