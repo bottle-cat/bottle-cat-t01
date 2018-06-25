@@ -55,7 +55,7 @@ header .gnb .inner a{font-family: 'Rubik', 'Roboto', sans-serif;font-size: 1rem;
 header .gnb .inner a:nth-of-type(1){float: left;}
 header .gnb .inner a:nth-of-type(2){float: right;}
 /* header present section */
-header section.present{padding: 12rem 0 6rem 0;width: 100%;background: transparent url(../img/present_bg-1.png) no-repeat right top;background-size: cover;}
+header section.present{padding: 12rem 0 6rem 0;width: 100%;background: transparent url(../img/cover_3840.png) no-repeat right 65%;background-size: cover;}
 header section.present .present_msg{color: #fffffb;font-size: 3rem;}
 header section.present .present_msg .hd_mask{overflow: hidden;height: 1.8em;}
 header section.present .present_msg .hd_mask:last-child{height: 1.2em;margin-top: .5em;}
@@ -387,7 +387,7 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 	header .gnb .inner>a:nth-of-type(1){float: left;padding-left: 1rem;}
 	header .gnb .inner>a:nth-of-type(2){float: right;padding-right: 1rem;}
 	/* header present section */
-	header section.present{padding: 90% 0 1rem 0;width: 100%;background: #4d4338 url(../img/present_bg-1.png) no-repeat right top;background-size: auto 60%;}
+	header section.present{padding: 90% 0 1rem 0;width: 100%;background: #4d4338 url(../img/cover_3840.png) no-repeat top;background-size: auto 60%;}
 	header section.present .present_msg{padding-top: .75rem;color: #fffffb;font-size: 1.5rem;text-align: center;}
 	header section.present .present_msg .hd_mask{overflow: hidden;height: 1.55em;}
 	header section.present .present_msg .hd_mask:last-child{height: 1.2em;margin-top: .5em;}
