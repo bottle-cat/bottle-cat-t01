@@ -68,11 +68,11 @@ header section.present .present_msg .hd_mask:last-child *{margin-top: 1.5em;anim
 header section.present .present_msg .hd_mask a{display: inline-block;margin-top: 1.5em}
 header section.present .present_msg .hd_mask:last-child a{color: #e95d6f;}
 header section.present .present_msg .hd_mask span{display: inline-block;}
-header section.present .present_msg .hd_mask:nth-child(5) a{;transition: color .7s ease;}
+header section.present .present_msg .hd_mask:nth-child(5) a{transition: color .7s ease;}
 header section.present .present_msg .hd_mask:nth-child(5) a:hover{color: #ffff00;}
 
+header section.present .present_msg .hd_mask:nth-child(1){animation: colorchng 2.5s ease 0s infinite alternate backwards;}
 header section.present .present_msg .hd_mask:nth-child(2){animation: colorchng 2.5s ease 0s infinite alternate backwards;}
-
 
 /* Footer */
 footer{padding-top: 7rem;color: #fffffb;}
@@ -315,9 +315,10 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 }
 
 @keyframes colorchng{
-	0%{color: #ffff00;}
-	50%{color: #fffffb;}
-	100%{color: #e95d6f;}
+	0%{color: #fffffb;}
+	33%{color: #d13053;}
+	66%{color: #fffffb;}
+	100%{color: #569e59;}
 }
 
 @keyframes sec_media_light{
@@ -401,9 +402,10 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 	header section.present .present_msg .hd_mask:last-child a{color: #e95d6f;}
 	header section.present .present_msg .hd_mask span{display: inline-block;}
 	header section.present .present_msg .hd_mask:nth-child(5) a{transition: color .7s ease;}
+	header section.present .present_msg .hd_mask:nth-child(5) a:hover{color: #ffff00;}
 
-	header section.present .present_msg .hd_mask:nth-child(2){animation: m_colorchng 1.5s ease 0s infinite alternate backwards;}
-
+	header section.present .present_msg .hd_mask:nth-child(1){animation: colorchng 2.5s ease 0s infinite alternate backwards;}
+	header section.present .present_msg .hd_mask:nth-child(2){animation: colorchng 2.5s ease 0s infinite alternate backwards;}
 
 	/* Footer */
 	footer{padding-top: 2.5rem;color: #fffffb;}
@@ -631,9 +633,10 @@ footer .ft_copyright>a:hover{color: #fffffb;}
 	}
 
 	@keyframes m_colorchng{
-		0%{color: #ffff00;}
-		50%{color: #fffffb;}
-		100%{color: #e95d6f;}
+		0%{color: #fffffb;}
+		33%{color: #d13053;}
+		66%{color: #fffffb;}
+		100%{color: #569e59;}
 	}
 
 	@keyframes m_txtslidein{
