@@ -66,13 +66,14 @@ header section.present .present_msg .hd_mask:nth-child(3) h2{animation-delay: 1.
 header section.present .present_msg .hd_mask:nth-child(4) h2{animation-delay: 1.25s;}
 header section.present .present_msg .hd_mask:last-child *{margin-top: 1.5em;animation-delay: 1.4s;}
 header section.present .present_msg .hd_mask a{display: inline-block;margin-top: 1.5em}
-header section.present .present_msg .hd_mask:last-child a{color: #e95d6f;}
-header section.present .present_msg .hd_mask span{display: inline-block;}
+header section.present .present_msg .hd_mask:last-child a{color: #ffd244;}
+header section.present .present_msg .hd_mask span{display: inline-block; text-transform: none;}
 header section.present .present_msg .hd_mask:nth-child(5) a{transition: color .7s ease;}
-header section.present .present_msg .hd_mask:nth-child(5) a:hover{color: #ffff00;}
+header section.present .present_msg .hd_mask:nth-child(5) a:hover{color: #e95d6f;}
 
-header section.present .present_msg .hd_mask:nth-child(1){animation: colorchng 2.5s ease 0s infinite alternate backwards;}
-header section.present .present_msg .hd_mask:nth-child(2){animation: colorchng 2.5s ease 0s infinite alternate backwards;}
+header section.present .present_msg .hd_mask:nth-child(1){animation: colorchngA 0.6s ease 0s infinite alternate backwards;}
+header section.present .present_msg .hd_mask:nth-child(2){animation: colorchngB 0.6s ease 0s infinite alternate backwards;}
+header section.present .present_msg .hd_mask:nth-child(3){animation: colorchngC 0.6s ease 0s infinite alternate backwards;}
 
 /* Footer */
 footer{padding-top: 7rem;color: #fffffb;}
@@ -316,11 +317,17 @@ footer .ft_copyright>#ER {font-size: 0.65rem;line-height: 0.75rem;}
 	to{margin-top: 0;opacity: 1;}
 }
 
-@keyframes colorchng{
-	0%{color: #fffffb;}
-	33%{color: #d13053;}
-	66%{color: #fffffb;}
-	100%{color: #569e59;}
+@keyframes colorchngA{
+	0%{color: transparent;}
+	100%{color: #fffffb;}
+}
+@keyframes colorchngB{
+	0%{color: transparent;}
+	100%{color: #ffd244;}
+}
+@keyframes colorchngC{
+	0%{color: transparent;}
+	100%{color: #e95d6f;}
 }
 
 @keyframes sec_media_light{
@@ -404,10 +411,11 @@ footer .ft_copyright>#ER {font-size: 0.65rem;line-height: 0.75rem;}
 	header section.present .present_msg .hd_mask:last-child a{color: #e95d6f;}
 	header section.present .present_msg .hd_mask span{display: inline-block;}
 	header section.present .present_msg .hd_mask:nth-child(5) a{transition: color .7s ease;}
-	header section.present .present_msg .hd_mask:nth-child(5) a:hover{color: #ffff00;}
+	header section.present .present_msg .hd_mask:nth-child(5) a:hover{color: #ffd244;}
 
-	header section.present .present_msg .hd_mask:nth-child(1){animation: colorchng 2.5s ease 0s infinite alternate backwards;}
-	header section.present .present_msg .hd_mask:nth-child(2){animation: colorchng 2.5s ease 0s infinite alternate backwards;}
+	header section.present .present_msg .hd_mask:nth-child(1){animation: m_colorchngA 0.6s ease 0s infinite alternate backwards;}
+	header section.present .present_msg .hd_mask:nth-child(2){animation: m_colorchngB 0.6s ease 0s infinite alternate backwards;}
+	header section.present .present_msg .hd_mask:nth-child(3){animation: m_colorchngC 0.6s ease 0s infinite alternate backwards;}
 
 	/* Footer */
 	footer{padding-top: 2.5rem;color: #fffffb;}
@@ -636,12 +644,18 @@ footer .ft_copyright>#ER {font-size: 0.65rem;line-height: 0.75rem;}
 		100%{margin-left: 0;}
 	}
 
-	@keyframes m_colorchng{
-		0%{color: #fffffb;}
-		33%{color: #d13053;}
-		66%{color: #fffffb;}
-		100%{color: #569e59;}
-	}
+@keyframes m_colorchngA{
+	0%{color: transparent;}
+	100%{color: #fffffb;}
+}
+@keyframes m_colorchngB{
+	0%{color: transparent;}
+	100%{color: #ffd244;}
+}
+@keyframes m_colorchngC{
+	0%{color: transparent;}
+	100%{color: #e95d6f;}
+}
 
 	@keyframes m_txtslidein{
 		from{margin-top: 1.5em;opacity: 0;}
